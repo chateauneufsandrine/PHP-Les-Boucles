@@ -15,7 +15,7 @@
 <body>
     <?php for ($i = 20; $i >= 0; $i--) {
     ?>
-        <h3>C'est presque bon</h3>
+        <h3><?= $i ?>- C'est presque bon</h3>
     <?php }  ?>
 </body>
 

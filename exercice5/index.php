@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <?php for ($i = 0; $i < 15; $i++) {
+    <?php for ($i = 1; $i <= 15; $i++) {
     ?>
-        <h3>On y arrive presque</h3>
+        <h3> <?= $i ?> - On y arrive presque</h3>
 
     <?php  }  ?>
 
