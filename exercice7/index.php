@@ -12,9 +12,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php for ($i=0; $i <100 ; $i+= 15) { 
+    <?php for ($i=0; $i <=100 ; $i+= 15) { 
    ?>
-    <h3>On tient le bon bout</h3>
+    <h3><?= $i ?>- On tient le bon bout</h3>
     <?php } ?>
 </body>
 </html>
