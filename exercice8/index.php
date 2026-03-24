@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php for ($i = 200; $i >= 0; $i += 12) {
+    <?php for ($i = 200; $i >= 0; $i -= 12) {
     ?>
         <h3>Enfin !!!</h3>
     <?php   }  ?>
